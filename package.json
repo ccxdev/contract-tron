@@ -1,0 +1,26 @@
+{
+  "name": "tronbox-contract",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "tronbox": "^2.7.25",
+    "tronweb": "^2.10.2",
+    "web3": "^1.7.5"
+  },
+  "scripts": {
+    "compile": "tronbox compile",
+    "migrate": "tronbox migrate --reset --network development",
+    "test": "tronbox test"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.1",
+    "prettier": "^2.7.1",
+    "solc": "^0.4.25"
+  }
+}
