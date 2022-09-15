@@ -7,6 +7,8 @@ contract("Task", async (accounts) => {
     let tokenInstance;
 
     beforeEach(async () => {
+        console.log(accounts);
+
         taskInstance = await Task.deployed();
         tokenInstance = await Token.deployed();
     });
